@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="css/csspoging2.css" rel="stylesheet" type="text/css">
+
+    <title>PR8 Poging 2</title>
+  </head>
+<body>
+
+<script src="js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+	<script src="js/jquery-3.5.1.js"></script>
+
+<div class="container-sm border">
+	<nav class="navbar navbar-expand navbar-light bg-light">
+  <div class="container-fluid">
+    <img src="Images/logoscrum.png" class="img1" alt="logo scrum">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-0 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link loginbutton" href="signup.html">Sign Up</a>
+        </li>
+   <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="whatisscrum.html">What is agile scrum?</a>
+  <a href="startingasprint.html">Starting a sprint</a>
+  <a href="listofterms.html">List of terms</a>
+  <a href="contact.html">Contact</a>
+		  </div>
+		 
+
+<li id="main" class="main">
+  <span class="open nav-link" onclick="openNav()">&#9776; Menu</span>
+</li>
+
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2 nav-link form-controlsearch" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+	
+	 <div class="container-index">
+		<div class="column">
+    <div class="col-sm list-title">
+      What is agile scrum?
+    </div>
+			<hr>
+			<img src="Images/sprints-in-scrum.png" class="imgteamwork" alt="image sprints in scrum, Visual Paradigm, 2020 https://www.visual-paradigm.com/scrum/why-fixed-length-of-sprints-in-scrum/">
+			<! -- image retrieved from Visual Paradigm, 2020 https://www.visual-paradigm.com/scrum/why-fixed-length-of-sprints-in-scrum/-->	
+    <div class="col-sm">
+      Scrum is a project management technique designed to provide a clear structure for activities, tasks and roles within the development progress of a desired future product (Product Vision). Scrum projects consist out of several specified timeframes, called sprints. The purpose of a scrum project is to develop a properly tested product enhancement at the end of every sprint and the technique allows for feedback during development. Teams using the agile scrum technique usually consist of seven people, who all have their own roles.
+    </div>
+		
+		<div class="col-sm list-title">
+      Roles in agile scrum
+    </div>	
+			<hr>
+			<div class="col-sm">
+			<img src="Images/scrum team.png" class="imgteamwork" alt="image scrumroles, H. Doshi, January 23, 2017 https://www.scrum.org/resources/blog/how-do-3-scrum-roles-promote-self-organization">
+			<! -- image retrieved from H. Doshi, January 23, 2017 https://www.scrum.org/resources/blog/how-do-3-scrum-roles-promote-self-organization-->
+		</div>
+    <div class="col-sm">
+      <i><h3>Product owner</h3></i>
+    </div>
+	<div class="col-sm">
+      The product owner represents the stakeholders of the project. They are responsible for re-prioritizing the Product-Backlog, adjusting expectations. They decide to (dis-)continue development and whether or not to release the product. The product owner is essentially the manager of the project.
+    </div>
+	<div class="col-sm">
+      <i><h3>Scrum master</h3></i>
+    </div>
+	<div class="col-sm">
+      The scrum master is the one who makes sure the scrum method is understood and adhered to. They make sure the team is not disturbed by inside or outside factors and provide an self-organizational environment.
+    </div>
+	<div class="col-sm">
+      <i><h3>Development Team members</h3></i>
+    </div>
+	<div class="col-sm">
+      A scrum development team is cross-functional and self-organizing, without assigned roles. Team members are extremely collaborative and in charge of developing the product enhancement.
+    </div>
+  </div>
+	
+	
+	
+	
+	
+	</div>
+	
+	<div class="footer">
+  <p>© 2020, Kim Dijkmans, 170907</p>
+</div>
+	
+	</div>
+	
+	
+		<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+  document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+  document.body.style.backgroundColor = "white";
+}
+</script>
+   
+	   <script src="js/jquery-3.5.1.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js" crossorigin="anonymous"></script>
+</body>
+</html>

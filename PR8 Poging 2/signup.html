@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="css/csspoging2.css" rel="stylesheet" type="text/css">
+
+    <title>PR8 Poging 2</title>
+  </head>
+<body>
+
+<script src="js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+	<script src="js/jquery-3.5.1.js"></script>
+
+<div class="container-sm border">
+	<nav class="navbar navbar-expand navbar-light bg-light">
+  <div class="container-fluid">
+    <img src="Images/logoscrum.png" class="img1" alt="logo scrum">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-0 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link loginbutton" href="signup.html">Sign Up</a>
+        </li>
+   <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="whatisscrum.html">What is agile scrum?</a>
+  <a href="startingasprint.html">Starting a sprint</a>
+  <a href="listofterms.html">List of terms</a>
+  <a href="contact.html">Contact</a>
+		  </div>
+		 
+
+<li id="main" class="main">
+  <span class="open nav-link" onclick="openNav()">&#9776; Menu</span>
+</li>
+
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2 nav-link form-controlsearch" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+	
+	<div class="container-fluid1 logincont">
+		<form action="action_page.php">
+  <div class="container-fluid1">
+    <h3>Sign Up</h3>
+    <h5>Please fill in this form to create an account.</h5>
+    <hr>
+
+    <label for="email"><b>Email</b></label><br/>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <label for="psw-repeat"><b>Repeat Password</b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+
+    <label>
+      <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+    </label>
+
+    <p>By creating an account you agree to our <a href="listofterms.html" style="color:dodgerblue">List of terms</a>.</p>
+
+    <div class="clearfix">
+      <button  type="button" class="cancelbtn">Cancel</button>
+      <button  type="submit" class="signupbtn">Sign Up</button>
+    </div>
+  </div>
+</form>
+</div>
+
+		
+		
+	 <div class="footer">
+  <p>© 2020, Kim Dijkmans, 170907</p>
+</div>
+	</div>
+	 	
+	 </div>
+	
+	
+	
+	
+	
+	
+	
+	
+	</div>
+	
+	
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+  document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+  document.body.style.backgroundColor = "white";
+}
+</script>
+	
+<script>
+var modal = document.getElementById('id01');
+
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+   
+<script src="js/jquery-3.5.1.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+</script>
+	
+<script src="js/bootstrap.min.js" crossorigin="anonymous">
+</script>
+</body>
+</html>
