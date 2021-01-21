@@ -269,7 +269,7 @@ button:hover {
 }
 .btn-submit {
 	display: flex;
-	background-color: #C7C2C0;
+	background-color: #4CAF50;
 	justify-content: center;
 }
 btn-submit:hover {
