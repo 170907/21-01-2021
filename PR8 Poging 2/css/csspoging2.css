@@ -9,12 +9,14 @@ body {
 	flex-basis: auto;
 	justify-content: center;
 	border-radius: 7px;
-	background-color: #A19D9B;
+	background-color: #F23838;
 	padding: 10px;
-	max-width: 100%;
+	max-width: 95%;
+	height: 100%;
+	bottom: 0;
 }
 a {
-	font-size:2.5vw;
+	font-size:2.0vw;
 }
 .navbar {
 	padding: 1%;
@@ -22,6 +24,13 @@ a {
 }
 .nav-link {
 	color: #000000;
+	font-size:2.0vw;
+	max-width: 100%;
+}
+.nav-link1 {
+	color: #000000;
+	font-size:2.0vw;
+	max-width: 80%;
 }
 .img1 {
 	max-width:5%;
@@ -46,7 +55,7 @@ a {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #A19D9B;
+  background-color: #A60A27;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
@@ -57,11 +66,11 @@ a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: #000000;
+  color: #ffffff;
   display: block;
   transition: 0.3s;
   font-size:2.5vw;
-  background-color: #A19D9B;
+  background-color: #A60A27;
 }
 
 .sidenav a:hover {
@@ -91,7 +100,8 @@ a {
 .open {
 	font-size: 17px;
 	cursor: pointer;
-	font-size:2.5vw;
+	font-size:2.0vw;
+	max-width: 80%;
 }
 .form-control {
 	font-size:2.5vw;
@@ -99,18 +109,20 @@ a {
 }
 .form-controlsearch {
 	font-size:2.5vw;
-	max-width: 95%;
-	margin: 9px;
+	max-width: 80%;
+	margin-top: 9px;
+	margin-bottom: 9px;
 }
 .btn {
 	font-size:2.5vw;
-	max-width: 95%;
-	background-color: #C7C2C0;
-	color:#000000;
+	max-width: 80%;
+	background-color: #F23838;
+	color:#ffffff;
 }
 .d-flex {
 	display: flex;
 	align-content: center;
+	max-width: 80%;
 }
 .container-index {
 	display: flex;
@@ -119,14 +131,14 @@ a {
 	margin: 15px;
 	padding: 15px;
 	border-radius: 7px;
-	background-color: #E0DAD8;
+	background-color: #ffffff;
 }
 .col-sm {
 	display: flex;
 	justify-content: center;
 	align-content: center;
 	margin: 20px;
-    font-size:2.5vw;
+    font-size:2.5vw;background-color: #ffffff;
 }
 .logincont {
 	max-width:90%;
@@ -134,12 +146,12 @@ a {
 	padding-top: 15px;
 	padding-bottom: 15px;
 	border-radius: 7px;
-	background-color: #E0DAD8;
+	background-color: #ffffff;
 	
 }
 .imgteamwork{
 	justify-content: center;
-	max-width: 100%;
+	max-width: 70%;
 	height:auto;
 	border-radius: 7px;
 	margin-top: 20px;
@@ -153,27 +165,28 @@ a {
 }
 .container-fluid{
 	max-width: 95%;
+	background-color: #ffffff;
 }
 .container-fluid1 {
 	max-width: 90%;
 	margin: 15px;
 	padding: 10px;
 	border-radius: 7px;
-	background-color: #E0DAD8;
+	background-color: #ffffff;
 }
 .container-contact {
 	max-width: 95%;
 	margin: 15px;
 	padding: 15px;
 	border-radius: 7px;
-	background-color: #E0DAD8;
+	background-color: #ffffff;
 }
 .container-signup {
 	max-width: 95%;
 	margin: 15px;
 	padding: 15px;
 	border-radius: 7px;
-	background-color: #E0DAD8;
+	background-color: #ffffff;
 }
 * {box-sizing:content-box;}
 
@@ -203,7 +216,7 @@ button {
   margin: 8px 0;
   border: none;
   cursor: pointer;
-  width: 35%;
+  width: 20%;
   opacity: 0.8;
 }
 
@@ -213,7 +226,7 @@ button:hover {
   margin: 8px 0;
   border: none;
   cursor: pointer;
-  width: 35%;
+  width: 20%;
 }
 
 .cancelbtn {
@@ -301,6 +314,6 @@ input {
    background-color: #ffffff;
    color: #000000;
    text-align: center;
-   padding-top: 10px;
+   padding-top: 15px;
    margin-top: 10px;
 }
